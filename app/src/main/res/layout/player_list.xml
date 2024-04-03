@@ -3,10 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="100dp">
+    android:layout_height="50dp"
+    android:background="@null"
+    >
 
     <TextView
         android:id="@+id/playerName"
+        style="@style/listText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
@@ -17,16 +20,19 @@
 
     <TextView
         android:id="@+id/playerAge"
+        style="@style/listText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toEndOf="@+id/ageText"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <TextView
         android:id="@+id/playerPoints"
+        style="@style/listText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
@@ -37,6 +43,7 @@
 
     <TextView
         android:id="@+id/nameText"
+        style="@style/listTextTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Name: "
@@ -47,6 +54,7 @@
 
     <TextView
         android:id="@+id/ageText"
+        style="@style/listTextTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Age: "
@@ -57,6 +65,7 @@
 
     <TextView
         android:id="@+id/pointsText"
+        style="@style/listTextTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Points: "

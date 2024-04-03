@@ -5,6 +5,7 @@
     <color name="sunflower_yellow">#FFF9C852</color>
     <color name="deep_red">#FF981717</color>
     <color name="sandstone">#FFDFBB85</color>
-    <color name="grayish">#FFBBBBBB</color>
+    <color name="grayish">#636363</color>
     <color name="pure_white">#FFFFFFFF</color>
+    <color name="basketball_orange">#ee6730</color>
 </resources>

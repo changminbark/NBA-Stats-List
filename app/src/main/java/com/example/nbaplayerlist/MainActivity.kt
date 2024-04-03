@@ -13,7 +13,6 @@ import okhttp3.Headers
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
-    private lateinit var playerList: MutableList<String>
     private lateinit var rvPlayers: RecyclerView
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         rvPlayers = findViewById(R.id.player_list)
-        playerList = mutableListOf()
+
 
         retrievePlayerStats()
     }
